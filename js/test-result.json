@@ -1,0 +1,185 @@
+{
+  "gherkinDocuments": [
+    {
+      "type": "GherkinDocument",
+      "feature": {
+        "type": "Feature",
+        "tags": [
+          {
+            "type": "Tag",
+            "location": {
+              "line": 1,
+              "column": 1
+            },
+            "name": "@friday"
+          }
+        ],
+        "location": {
+          "line": 2,
+          "column": 1
+        },
+        "language": "en",
+        "keyword": "Feature",
+        "name": "Is it Friday yet?",
+        "description": "  Everybody wants to know when it's Friday",
+        "children": [
+          {
+            "type": "Scenario",
+            "tags": [],
+            "location": {
+              "line": 5,
+              "column": 3
+            },
+            "keyword": "Scenario",
+            "name": "Sunday isn't Friday",
+            "steps": [
+              {
+                "type": "Step",
+                "location": {
+                  "line": 6,
+                  "column": 5
+                },
+                "keyword": "Given ",
+                "text": "today is Sunday"
+              },
+              {
+                "type": "Step",
+                "location": {
+                  "line": 7,
+                  "column": 5
+                },
+                "keyword": "When ",
+                "text": "I ask whether it's Friday yet"
+              },
+              {
+                "type": "Step",
+                "location": {
+                  "line": 8,
+                  "column": 5
+                },
+                "keyword": "Then ",
+                "text": "I should be told \"Nope\""
+              }
+            ]
+          }
+        ]
+      },
+      "comments": [],
+      "uri": "features/friday.feature"
+    }
+  ],
+  "pickles": [
+    {
+      "tags": [
+        {
+          "name": "@friday",
+          "location": {
+            "line": 1,
+            "column": 1
+          }
+        }
+      ],
+      "name": "Sunday isn't Friday",
+      "language": "en",
+      "locations": [
+        {
+          "line": 5,
+          "column": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "today is Sunday",
+          "arguments": [],
+          "locations": [
+            {
+              "line": 6,
+              "column": 11
+            }
+          ]
+        },
+        {
+          "text": "I ask whether it's Friday yet",
+          "arguments": [],
+          "locations": [
+            {
+              "line": 7,
+              "column": 10
+            }
+          ]
+        },
+        {
+          "text": "I should be told \"Nope\"",
+          "arguments": [],
+          "locations": [
+            {
+              "line": 8,
+              "column": 10
+            }
+          ]
+        }
+      ],
+      "uri": "features/friday.feature"
+    }
+  ],
+  "testCaseAttempts": [
+    {
+      "testCase": {
+        "attemptNumber": 1,
+        "name": "Sunday isn't Friday",
+        "result": {
+          "duration": 0,
+          "status": "undefined"
+        },
+        "sourceLocation": {
+          "uri": "features/friday.feature",
+          "line": 5
+        }
+      },
+      "testSteps": [
+        {
+          "attachments": [],
+          "result": {
+            "status": "undefined"
+          },
+          "keyword": "Given ",
+          "sourceLocation": {
+            "uri": "features/friday.feature",
+            "line": 6
+          },
+          "text": "today is Sunday",
+          "arguments": [],
+          "snippet": "Given('today is Sunday', function () {\n  // Write code here that turns the phrase above into concrete actions\n  return 'pending';\n});"
+        },
+        {
+          "attachments": [],
+          "result": {
+            "status": "undefined"
+          },
+          "keyword": "When ",
+          "sourceLocation": {
+            "uri": "features/friday.feature",
+            "line": 7
+          },
+          "text": "I ask whether it's Friday yet",
+          "arguments": [],
+          "snippet": "When('I ask whether it\\'s Friday yet', function () {\n  // Write code here that turns the phrase above into concrete actions\n  return 'pending';\n});"
+        },
+        {
+          "attachments": [],
+          "result": {
+            "status": "undefined"
+          },
+          "keyword": "Then ",
+          "sourceLocation": {
+            "uri": "features/friday.feature",
+            "line": 8
+          },
+          "text": "I should be told \"Nope\"",
+          "arguments": [],
+          "snippet": "Then('I should be told {string}', function (string) {\n  // Write code here that turns the phrase above into concrete actions\n  return 'pending';\n});"
+        }
+      ]
+    }
+  ]
+}
